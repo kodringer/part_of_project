@@ -1,0 +1,22 @@
+{
+  "ctrl": [
+    {
+      "description": "Search and add new contacts",
+      "search": "[data-id=add-contact-input] [data-id=search-input]",
+      "clear": "[data-id=resetAdvancedSearch-icon]",
+      "close": "[data-id=add-contact-header] [data-id=close]",
+      "contact_item": "[data-id=user-item]",
+      "name": "[data-id=user-item] [data-id=name]",
+      "message": "[data-id=user-item] [data-id=message]",
+      "search_clear": "[data-id=add-contact-input] [data-id=resetAdvancedSearch]"
+    }
+  ],
+  "form": [
+    {
+      "description": "Home - Logo",
+      "dclass": "[class*=Welcome] [class*=logo]",
+      "width": 82,
+      "height": 82
+    }
+  ]
+}

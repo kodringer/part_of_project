@@ -1,0 +1,50 @@
+{
+  "ctrl": [
+    {
+      "alert": "[data-hook=form-error]",
+      "loaded": "[data-id=show-history]",
+      "recent": "[data-id=recent-item]"
+    }
+  ],
+  "valid": [
+    {
+      "description": "T6809 'valid data' usual user",
+      "ncoreid": "testuser1@adsasdasd.com",
+      "password": "asdasdasdsa",
+      "user0": "testuser1",
+      "shouldbe": "user logged in"
+    }
+  ],
+  "notvalid": [
+    {
+      "description": "T6810 'wrong credentials'",
+      "ncoreid": "ad@bondar.dipper.io",
+      "password": "Bond",
+      "shouldbe": "The user name and/or password you entered is incorrect."
+    }
+  ],
+  "briefprofile": [
+    {
+      "description": "user for testing Brief Profile",
+      "ncoreid": "testuser10@maaxiasdasneqa.com",
+      "password": "asdasda!@#",
+      "shouldbe": "user logged in"
+    }
+  ],
+  "widget": [
+    {
+      "description": "user for testing Widget",
+      "ncoreid": "testuser9@maaxiadsasdaneqa.com",
+      "password": "asdasda",
+      "shouldbe": "user logged in"
+    }
+  ],
+  "muc": [
+    {
+      "description": "user for testing MUC",
+      "ncoreid": "testuser3@maxineqa.com",
+      "password": "asdaads",
+      "shouldbe": "user logged in"
+    }
+  ]
+}

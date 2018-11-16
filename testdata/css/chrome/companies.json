@@ -1,0 +1,68 @@
+{
+	"ctrl": [
+		{
+			"close": "[data-id=close]",
+			"open": "[data-id=toolbar-companies]",
+			"button": "[class*=FilterButton]",
+			"active_button": "[class*=FilterButton][class*=active]",
+			"filter_input": "[data-id=filterByCompanies]",
+			"card": "[class*=content] [class*=company-]",
+			"company_name": "[class*=Companies] [class*=companyName]",
+			"clear_search": "[data-id=resetСompaniesSearch]",
+			"spinner": "[class*=Companies] [class*=ring]"
+		}
+	],
+
+	"form": [
+		{
+			"description": "Companies - ALL button (active)",
+			"dclass": "[class*=FilterButton][class*=active]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"color": "#ffffff",
+			"background_color": "#a8152b",
+			"font_weight": "400"
+		},
+		{
+			"description": "Companies - A-D button (not active)",
+			"dclass": "[class*=FilterButton]:nth-child(2)",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"color": "#a8152b",
+			"font_weight": "700"
+		},
+		{
+			"description": "Companies - Title",
+			"dclass": "[data-id=exchange-companies] h1",
+			"font_family": "Roboto",
+			"font_size": "20px",
+			"color": "#212121",
+			"font_weight": "700"
+		},
+		{
+			"description": "Companies - Filter by companies",
+			"dclass": "[data-id=filterByCompanies]",
+			"width": 225,
+			"height": 34,
+			"border": "1px solid rgb(216, 216, 216)",
+			"font_family": "Roboto",
+			"font_size": "12px",
+			"color": "#9a9a9a",
+			"font_weight": "400"
+		},
+		{
+			"description": "Companies - Company name",
+			"dclass": "[class*=companyName]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "700"
+		},
+		{
+			"description": "Companies - Company icon",
+			"dclass": "[class*=company] [class*=icon]",
+			"width": 100,
+			"height": 50
+		}
+	]
+}
+

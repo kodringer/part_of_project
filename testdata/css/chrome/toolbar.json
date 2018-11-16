@@ -1,0 +1,98 @@
+{
+	"controls": [
+		{
+			"description": "Left panel - Toolbar",
+			"dclass": "[data-id=toolbar]",
+			"width": 350,
+			"height": 54,
+			"background_color": "#fafafa",
+			"x": 0,
+			"y": 59	
+		},
+		{
+			"description": "Left panel - Toolbar - icon Home",
+			"dclass": "[id=toolbar-home-off]",
+			"width": 34,
+			"height": 34,
+			"color": "#a8152b",
+			"x": 17,
+			"y": 70	
+		},
+		{
+			"description": "Left panel - Toolbar - icon Add Contact",
+			"dclass": "[id=toolbar-add-off]",
+			"width": 34,
+			"height": 34,
+			"color": "#a8152b",
+			"x": 61,
+			"y": 70	
+		},
+		{
+			"description": "Left panel - Toolbar - icon Pending Contacts",
+			"dclass": "[id=toolbar-pending-off]",
+			"width": 34,
+			"height": 34,
+			"color": "#a8152b",
+			"x": 105,
+			"y": 70	
+		},
+		{
+			"description": "Left panel - Toolbar - Companies",
+			"dclass": "[data-id=toolbar-companies]",
+			"width": 34,
+			"height": 34,
+			"color": "#a8152b",
+			"x": 149,
+			"y": 70	
+		},
+		{
+			"description": "Left panel - Toolbar - icon Settings",
+			"dclass": "[id=toolbar-settings-off]",
+			"width": 34,
+			"height": 34,
+			"color": "#a8152b",
+			"x": 301,
+			"y": 70	
+		},			
+		{
+			"description": "Left panel - Toolbar - Settings Menu",
+			"dclass": "[data-id=dropDownSettings]"
+		},
+		{
+			"description": "Settings - Menu Items - Profile",
+			"dclass": "[data-id=profile]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343"
+		},
+		{
+			"description": "Settings - Menu Items - Invite",
+			"dclass": "[data-id=invite]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343"
+		},					
+		{
+			"description": "Settings - Menu Items - Settings",
+			"dclass": "[data-id=settings]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343"
+		},				
+		{
+			"description": "Settings - Menu Items - Logout",
+			"dclass": "[data-id=logout]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343"
+		}				
+	]
+}

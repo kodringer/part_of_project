@@ -1,0 +1,208 @@
+{
+	"ctrl": [
+		{
+			"open": "[data-id=recent-item] [data-id=avatar]",
+			"open_f": "[data-id=recent-item] [data-for*=maxineqa.com]",
+			"closeChatInfo": "[data-id=close]",
+			"FilesButton": "[data-id=chatFilesButton]",
+			"scrollup": "[data-id=ContainerMe]",
+			"smiles": "[data-id=emoji-picker-button]",
+			"all_smiles": "[data-id=emoji-picker-element] [class*=emoticon]",
+			"add_contact": "[data-id=addGroupChatButton]",
+			"create_muc": "[data-id=create-group-chat]",
+			"muc":"[data-id=chat-SlideSideBar-container]",
+			"muc_users_list": "[data-id=chat-SlideSideBar-container] [class*=selectedUsers]",
+			"call":"[data-id=audioCallButton]",
+			"end_call":"[class*=CallPanel] [class*=Cancel]",
+			"CallPanel":"[class*=CallPanel]",
+			"message": "[data-id=chat-message-body]",
+			"content": "[data-id=chat-message-text] p",
+			"three_dots_message": "[data-id=button-three-dots-message]",
+			"three_dots_message_menu": "[data-id=chat-message-view] .dropDownThreeDotsActive",
+			"quote": ".show [data-id=quoteMessage]",
+			"editor": "[class*=DraftEditor-content]",
+			"close_call": "[data-id=callErrorPopUp-cancelButton]",
+			"service_message": "[data-id=chat-service-message-view]",
+			"service_message_removed": "has been removed from this group conversation.",
+			"message_status_icon": "[data-id=chat-message-status]",
+			"message_status_text": "[data-id=chat-message-status] [class*=tooltip]",
+			"mentions_list": "[data-id=mentions-plugin] [title]",
+			"mention_input": "[data-id=chat-editor] strong",
+			"smile_in_message": "[data-id=chat-message-text] .emoticon.inText",
+			"editor_form": ".DraftEditor-root",
+			"editor_content": ".DraftEditor-editorContainer",
+			"message_time": "[data-id=chat-message-time]"
+
+		}
+	],
+
+	"form": [
+		{
+			"description": "Chat - Header - Contact name",
+			"dclass": "[data-id=header-contact] [data-id=name]",
+			"font_family": "Roboto",
+			"font_size": "16px",
+			"font_weight": "700",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343"
+		},
+		{
+			"description": "Chat - Header - Contact status",
+			"dclass": "[data-id=header-contact] [class*=Sub]",
+			"font_family": "Roboto",
+			"font_size": "12px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#9a9a9a"	
+		},
+		{
+			"description": "Chat - Header - Contact avatar",
+			"dclass": "[data-id=header-contact] [data-id=avatar]",
+			"width": 34,
+			"height": 34
+		},
+		{
+			"description": "Chat - Header - Contact presence",
+			"dclass": "[data-id=header-contact] [data-id=avatar-presence]",
+			"width": 12,
+			"height": 12
+		},
+		{
+			"description": "Chat - Header - Call button",
+			"dclass": "[data-id=audioCallButton]",
+			"width": 28,
+			"height": 28	
+		},
+		{
+			"description": "Chat - Header - Videocall button",
+			"dclass": "[data-id=videoCallButton]",
+			"width": 28,
+			"height": 28	
+		},
+		{
+			"description": "Chat - Header - Add button",
+			"dclass": "[data-id=addGroupChatButton]",
+			"width": 28,
+			"height": 28	
+		},
+		{
+			"description": "Chat - Header - Files button",
+			"dclass": "[data-id=chatFilesButton]",
+			"width": 28,
+			"height": 28	
+		},
+		{
+			"description": "Chat - Files - Title",
+			"dclass": "[class*=fileList] [class*=Header]",
+			"font_family": "Roboto",
+			"font_size": "16px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343"
+		},
+		{
+			"description": "Chat - Files - X Icon",
+			"dclass": "[data-id=close]",
+			"width": 21,
+			"height": 21,
+			"color": "#434343"
+		},				
+		{
+			"description": "Chat - Content",
+			"dclass": "[data-id=chat-message-list]",
+			"width": 1015
+		},
+		{
+			"description": "Chat - Content - avatar",
+			"dclass": "[data-id=chat-message-list] [data-id=avatar]",
+			"width": 34,
+			"height": 34
+		},
+		{
+			"description": "Chat - Content - Sent Message",
+			"dclass": "[class*=OutboundText] [data-id=chat-message-text]",
+			"width": 658,
+			"font_family": "Roboto",
+			"font_size": "13.008px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#212121",
+			"deviation": 5	
+		},
+		{
+			"description": "Chat - Content - Sent Message - background",
+			"dclass": "[class*=OutboundText]",
+			"background_color": "#f4f4f4"
+		},
+		{
+			"description": "Chat - Content - Received Message",
+			"dclass": "[class*=InboundText] [data-id=chat-message-text]",
+			"width": 658,
+			"font_family": "Roboto",
+			"font_size": "13.008px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#212121",
+			"deviation": 5		
+		},
+		{
+			"description": "Chat - Content - Received Message - background",
+			"dclass": "[class*=InboundText]",
+			"background_color": "#f2e7eb"
+		},
+		{
+			"description": "Chat - Content - SentMessageTime",
+			"dclass": "[class*=Outbound] [data-id=chat-message-time]",
+			"font_family": "Roboto",
+			"font_size": "10px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#9a9a9a"
+		},
+		{
+			"description": "Chat - Content - ReceivedMessageTime",
+			"dclass": "[class*=Inbound] [data-id=chat-message-time]",
+			"font_family": "Roboto",
+			"font_size": "10px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#9a9a9a"
+		},
+		{
+			"description": "Chat - Input container",
+			"dclass": "[data-id=chat-editor]",
+			"width": 1015,
+			"height": 40,
+			"deviation": 5	
+		},
+		{
+			"description": "Chat - Input form",
+			"dclass": "[class*=editorContainer]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#4a4a4a",
+			"background_color": "#ffffff",
+			"deviation": 5	
+		},	
+		{
+			"description": "Chat - Input form - Placeholder",
+			"dclass": "[id*=placeholder]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#9a9a9a"
+		}
+	]
+}

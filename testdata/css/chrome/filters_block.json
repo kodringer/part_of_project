@@ -1,0 +1,89 @@
+{
+	"ctrl": [
+		{
+			"filter": "[data-id=recent-filter-state]"
+		}
+	],
+	"controls": [
+		{
+			"description": "Left panel - Filter block",
+			"dclass": "[data-id=recent-filter-wrapper]",
+			"width": 350,
+			"height": 38,
+			"background_color": "#fafafa",
+			"x": 0,
+			"y": 149	
+		},
+		{
+			"description": "Left panel - Filter block - Show",
+			"dclass": "[data-id=show]",
+			"font_family": "Roboto",
+			"font_size":"12px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343",
+			"x": 18,
+			"y": 161	
+		},
+		{
+			"description": "Left panel - Filter block - Filter name",
+			"dclass": "[data-id=recent-filter-state]",
+			"font_family": "Roboto",
+			"font_size":"12px",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"font_weight": "700",
+			"color": "#434343",
+			"x": 53,
+			"y": 161	
+		},
+		{
+			"description": "Left panel - Filter block - Arrow",
+			"dclass": "[data-id=arrow-down]",
+			"width": 12,
+			"height": 14,
+			"color": "#434343",
+			"y": 161	
+		},
+		{
+			"description": "Filters - Menu Items - All",
+			"dclass": "[data-id=SHOW_ALL]",
+			"font_family": "Roboto",
+			"font_size":"14.004px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343"
+		},				
+		{
+			"description": "Left panel - Filter block - Menu",
+			"dclass": "[data-id=recent-filter-menu]",
+			"width": 350,
+			"height": 86,
+			"background_color": "#ffffff",
+			"x": 0,
+			"y": 0	
+		},						
+		{
+			"description": "Filters - Menu Items - Chats only",
+			"dclass": "[data-id=SHOW_ONLY_CHATS]",
+			"font_family": "Roboto",
+			"font_size":"14.004px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343"
+		},				
+		{
+			"description": "Filters - Menu Items - Group chats only",
+			"dclass": "[data-id=SHOW_ONLY_GROUPCHATS]",
+			"font_family": "Roboto",
+			"font_size":"14.004px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343"
+		}		
+	]
+}

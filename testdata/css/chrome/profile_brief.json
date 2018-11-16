@@ -1,0 +1,91 @@
+{
+  "ctrl_recent": [
+    {
+      "avatar": "[data-id=recent-item] [data-id=avatar]",
+      "opened": "[data-id=recent-item] [id*=info].show"
+    }
+  ],
+  "ctrl_addContacts": [
+    {
+      "opened": "[data-id=user-item] [id*=info].show",
+      "avatar": "[data-id=user-item] [data-id=avatar]",
+      "username": "[data-id=user-item] [data-id=info-fullname]",
+      "jid": "[data-id=user-item] [data-id=info-jid]",
+      "copy_jid": "[data-id=user-item] [data-id=copy-icon]",
+      "userinfo": "[data-id=user-item] [class*=ProfileInfo] [data-id=viewUserInfo]",
+      "startchat": "[data-id=user-item] [class*=ProfileInfo] [data-id=startChat]",
+      "threedots": "[data-id=user-item] [class*=ProfileInfo] [class*=dropDown] [data-id=button-three-dots-contact]",
+      "refreshpresence": "[data-id=user-item] [class*=ProfileInfo] [class*=dropDown] [data-id=refreshPresence]",
+      "deletecontact": "[data-id=user-item] [class*=ProfileInfo] [class*=dropDown] [data-id=deleteContact]",
+      "blockcontact": "[data-id=user-item] [class*=ProfileInfo] [class*=dropDown] [data-id=blockContact]",
+      "retrycontact": "[data-id=user-item] [class*=ProfileInfo] [class*=dropDown] [data-id=RetryContact]",
+      "acceptcontact": "[data-id=user-item] [class*=ProfileInfo] [data-id=acceptContact]",
+      "rejectcontact": "[data-id=user-item] [class*=ProfileInfo] [class*=dropDown] [data-id=rejectContact]",
+      "addcontact": "[data-id=user-item] [class*=ProfileInfo] [class*=dropDown] [data-id=addContact]",
+      "message": "[data-id=user-item] [data-id=status-text]"
+    }
+  ],
+  "form": [
+    {
+      "description": "Brief Profile - Name",
+      "dclass": "[class*=profileInfoData] h2",
+      "font_family": "Roboto",
+      "font_size": "18px",
+      "font_weight": "700",
+      "color": "#ffffff"
+    },
+    {
+      "description": "Brief Profile - JID",
+      "dclass": "[class*=otherInfoData] [class*=value]",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "400",
+      "color": "#525252"
+    },
+    {
+      "description": "Brief Profile - Avatar",
+      "dclass": "[data-id=avatar-profile-info]",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "description": "Brief Profile - Avatar presence",
+      "dclass": "[data-id=avatar-profile-info] [data-id=avatar-presence]",
+      "width": 26,
+      "height": 26
+    },
+    {
+      "description": "Brief Profile - Copy icon",
+      "dclass": "[class*=otherInfoData] [class*=copyIcon]",
+      "font_family": "Roboto",
+      "font_size": "11.998px",
+      "font_weight": "400",
+      "color": "#434343"
+    },
+    {
+      "description": "Brief Profile - User Info button",
+      "dclass": "[class*=ProfileInfo] [data-id=viewUserInfo]",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "400",
+      "color": "#717274"
+    },
+    {
+      "description": "Brief Profile - Start chat button",
+      "dclass": "[class*=ProfileInfo] [data-id=startChat]",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "400",
+      "color": "#717274"
+    },
+    {
+      "description": "Brief Profile - Three dots button",
+      "dclass": "[class*=ProfileInfo] [data-id=button-three-dots-contact]",
+      "font_family": "Roboto",
+      "font_size": "16px",
+      "font_weight": "400",
+      "color": "#717274"
+    }
+  ]
+}
+

@@ -1,0 +1,62 @@
+{
+	"ctrl": [
+		{
+			"button": "[data-hook=presence]",
+			"custom": "[name=customStatus]",
+			"dclass_me": "[data-hook=presenceMe]"
+		}
+	],
+	"controls": [
+		{
+			"description": "Left panel - OWN - Presence Menu",
+			"dclass": "[data-id=set-presence-menu]",
+			"width": 242,
+			"height": 135,
+			"background_color": "#ffffff"
+		},
+		{
+			"description": "Left panel - OWN - Presence Menu - own presence (avatar)",
+			"dclass": ".MenuItem-769891696 available-201251947"
+		},
+		{
+			"description": "Left panel - OWN - Presence Menu - Share your status here",
+			"dclass": "[data-id=me-custom-status]",
+			"placeholder": "Share your status here",
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343",
+			"x": 0,
+			"y": 0	
+		},		 	
+		{
+			"description": "Left panel - OWN - Menu Items - Available",
+			"dclass": "[data-id=available]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343"
+		},				
+		{
+			"description": "Left panel - OWN - Menu Items - Busy",
+			"dclass": "[data-id=dnd]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343"
+		},				
+		{
+			"description": "Left panel - OWN - Menu Items - Away",
+			"dclass": "[data-id=away]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343"
+		}				
+	]
+}

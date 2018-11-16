@@ -1,0 +1,85 @@
+{
+	"ctrl": [
+		{
+			"close": "[data-id=close]",
+			"recent_item": "[data-id=recent-item][data-jid*=muc]",
+			"three_dots": "[data-id=dropDownThreeDots]",
+			"open": "[data-id=dropDownThreeDots] [data-id=view-groupchat-info]",
+			"home": "[id=toolbar-home-off]",
+			"topic": "[class*=profileInfoData] [data-id=editable-text] [class*=text][title]",
+			"topic_input": "[class*=profileInfoData] [data-id=editable-text] input",
+			"topic_edit_mode": "[class*=textWrapper][class*=hidden]",
+			"header": "[data-id=group-chat-info-header]",
+			"chat_focus": "[class*=hasFocus]",
+			"three_dots_info": "[class*=profileInfoData] [data-id=button-three-dots-groupchat]",
+			"start_chat": "[class*=profileInfoData] [data-id=start-room-chat]",
+			"leave_chat": "[class*=profileInfoData] [data-id=leave-groupchat]",
+			"three_dots_active": "[class*=profileInfoData] .buttonWrapperActive"
+		}
+	],
+
+	"form": [
+		{
+			"description": "GC Info - Header",
+			"dclass": "[data-id=group-chat-info-header]",
+			"font_family": "Roboto",
+			"font_size": "16px",
+			"font_weight": "400",
+			"background_color": "#eeeeee"
+		},
+		{
+			"description": "GC Info - Avatar",
+			"dclass": "[class*=ProfileInfo] canvas",
+			"width": 200,
+			"height": 200
+		},
+		{
+			"description": "GC Info - Chatname",
+			"dclass": "[data-id=editable-text]",
+			"font_family": "Roboto",
+			"font_size": "18px",
+			"font_weight": "500"
+		},
+		{
+			"description": "GC Info - Three dots button",
+			"dclass": "[data-id=button-three-dots-groupchat]",
+			"font_family": "Roboto",
+			"font_size": "21px"
+		},
+		{
+			"description": "GC Info - Nickname edit button",
+			"dclass": "[data-id=EditableText-edit-icon]",
+			"font_family": "Roboto",
+			"font_size": "18px",
+			"font_weight": "500",
+			"color": "#757575",
+			"width": 20,
+			"height": 20
+		},
+		{
+			"description": "GC Info - Label(ID)",
+			"dclass": "[class*=center] [class*=label]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "400",
+			"color": "#525252"
+		},
+		{
+			"description": "GC Info - Value(ID)",
+			"dclass": "[class*=center] [class*=value]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "700",
+			"color": "#525252"
+		}
+	],
+	"cases": [
+		{
+			"message": "You have been removed from this group conversation.",
+			"topic": "Change topic",
+			"chat": "Switch to chat",
+			"leave": "Leave chat"
+		}
+	]
+}
+

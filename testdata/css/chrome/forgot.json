@@ -1,0 +1,73 @@
+{
+	"ctrl": [
+		{
+			"submit": "[type=submit]",
+			"name": "[name=userName]"		
+		}
+	],
+	"form": [
+		{
+			"description": "Chrome Forgot Password Page - title",
+			"dclass": ".form-panel-title",
+			"font_family": "Roboto",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#5e5e5e"
+		},
+		{
+			"description": "Forgot Password Page - Username field",
+			"dclass": "[name=userName]",
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#757575",
+			"border": "1px solid rgb(189, 196, 208)"
+		},
+		{
+			"description": "Forgot Password Page - Reset button",
+			"dclass": "[type=submit]",
+			"font_family": "Roboto",
+			"font_size":"16px",
+			"font_weight": "700",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#ffffff",
+			"background_color": "#a8152b"
+		},
+		{
+			"description": "Forgot Password Page - bottom string",
+			"dclass": ".bottom",
+			"font_family": "Roboto",
+			"font_size":"12px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#585858"
+		}			
+	],
+	"error": [
+		{
+			"description": "Forgot Password Page - ErrorBox",
+			"dclass": ".form-panel label.error",
+			"font_size":"12px",
+			"color":"#ffffff",
+			"background_color": "#f43736"
+		},
+		{
+			"description": "Forgot Password Page - ErrorBox - image",
+			"dclass": ".form-panel .error",
+			"background_image": "pages/img/warning.svg",
+			"border": "1px solid rgb(244, 55, 54)"
+		}
+	],
+	"warnings": [
+		{
+			"description": "Forgot Password Page - Warning Fill out",
+			"dclass":".form-panel label.error",
+			"value": "Please fill out this field"
+		}
+	]
+}

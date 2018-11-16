@@ -1,0 +1,73 @@
+{
+	"ctrl": [
+		{
+			"close": "[data-id=close]",
+			"toolbar": "[data-id=toolbar-settings]",
+			"invite": "[data-id=invite]",
+			"addAnother": "[class*=addAnother]",
+			"removeMail": "[data-id=invite-remove-email-icon]",
+			"message": "[name=message]",
+			"addDisabled": "[class*=addAnother].disabled",
+			"errorMessage": "[data-id=invitePage] [class*=errorBox]",
+			"inviteButton": "[data-id=sendInvitations]",
+			"inputMail": "[data-id=invitePage] [class*=Input]"
+		}
+	],
+
+	"form": [
+		{
+			"description": "Invite - Header",
+			"dclass": "[class*=Content]>h1",
+			"font_family": "Roboto",
+			"font_size": "30px",
+			"font_weight": "700"
+		},
+		{
+			"description": "Invite - X Icon",
+			"dclass": "[data-id=HeaderTitle-closeBtn-icon]",
+			"width": 20,
+			"height": 20,
+			"color": "#434343"
+		},
+		{
+			"description": "Invite - Textarea",
+			"dclass": "[name=message]",
+			"width": 416,
+			"height": 194,
+			"border": "1px solid rgb(216, 216, 216)",
+			"background_color": "#ffffff"
+		},
+		{
+			"description": "Invite - Mail field",
+			"dclass": "[data-id=invitePage] [type=text]",
+			"width": 416,
+			"height": 31,
+			"border": "1px solid rgb(216, 216, 216)",
+			"background_color": "#ffffff"
+		},
+		{
+			"description": "Invite - Remove mail icon",
+			"dclass": "[data-id=invite-remove-email-icon]",
+			"width": 17.5,
+			"height": 17.5,
+			"color": "#979797"
+		},
+		{
+			"description": "Invite - Add another",
+			"dclass": "[class*=addAnother]",
+			"color": "#585858"
+		},
+		{
+			"description": "Invite - Invite button",
+			"dclass": "[data-id=sendInvitations]",
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "700",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#ffffff",
+			"background_color": "#a8152b"
+		}
+	]
+}
+

@@ -1,0 +1,51 @@
+{
+	"ctrl": [
+		{
+			"close": "[data-id=close]",
+			"open": "[data-id=toolbar-pending]",
+			"incoming": "[class*=center] [class*=tab]:first-child",
+			"outgoing": "[class*=center] [class*=tab]:last-child"
+		}
+	],
+
+	"form": [
+		{
+			"description": "Pending Requests - header",
+			"dclass": "[data-id=pending-contact-header]",
+			"font_family": "Roboto",
+			"font_size": "16px",
+			"font_weight": "400"
+		},
+		{
+			"description": "Pending Requests - Incoming - title (active)",
+			"dclass": "[class*=center] [class*=tab]:first-child",
+			"font_family": "Roboto",
+			"color": "#434343",
+			"font_weight": "700"
+		},
+		{
+			"description": "Pending Requests - Outgoing - title (not active)",
+			"dclass": "[class*=center] [class*=tab]:last-child",
+			"font_family": "Roboto",
+			"color": "#434343",
+			"font_weight": "400"
+		}
+	],
+	"switch": [
+		{
+			"description": "Pending Requests - Incoming - title (not active)",
+			"dclass": "[class*=center] [class*=tab]:first-child",
+			"font_family": "Roboto",
+			"color": "#434343",
+			"font_weight": "400"
+		},
+		{
+			"description": "Pending Requests - Outgoing - title (active)",
+			"dclass": "[class*=center] [class*=tab]:last-child",
+			"font_family": "Roboto",
+			"color": "#434343",
+			"font_weight": "700"
+		}
+	]
+}
+

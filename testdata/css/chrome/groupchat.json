@@ -1,0 +1,180 @@
+{
+	"ctrl": [
+		{
+			"open": "[data-id=recent-item] [data-id=name]",
+			"closeChatInfo": "[data-id=chat-SlideSideBar-container] [data-id=close]",
+			"FilesButton": "[data-id=chatFilesButton]",
+			"scrollup": "[data-id=ContainerMe]",
+			"smiles": "[data-id=emoji-picker-button]",
+			"quote": "[class*=Inbound] [class*=messageMenu] [class*=menuItem]:nth-child(2n)",
+			"add_contact": "[data-id=addGroupChatButton]",
+			"edit_participants_list": "[data-id=editGroupChatBtn]",
+			"edit_participants_list_disabled": "[data-id=editGroupChatBtn].disabled",
+			"view_participants_list": "[data-id=chat-SlideSideBar-container] [class*=selectedUsers]",
+			"create_muc": "[data-id=create-group-chat]",
+			"muc":"[data-id=chat-SlideSideBar-container]",
+			"call":"[data-id=audioCallButton]",
+			"end_call":"[class*=CallPanel] [class*=Cancel]",
+			"CallPanel":"[class*=CallPanel]",
+			"users": "[class*=selectedUsers] [data-id=user-item]",
+			"leave_chat": "[data-id=leaveGroupChatButton]",
+			"after_leave_icon": "[data-id=leaveGroupChatButton].disabled",
+			"service_message": "[data-id=chat-service-message-view]",
+			"service_message_removed": "You have been removed from this group conversation.",
+			"recent_item": "[data-id=recent-item]",
+			"edit_users_list_button": "[data-id=edit-muc]",
+			"search_users_input": "[data-id=add-members-input]",
+			"save_users": "[data-id=chat-SlideSideBar-container] [data-id=save]",
+			"cancel_save_users": "[data-id=chat-SlideSideBar-container] [data-id=cancel]",
+			"chat_topic": "[data-id=chat-header-container] [data-id=editable-text] [class*=text][title]",
+			"chat_topic_input": "[data-id=chat-header-container] [data-id=editable-text] input",
+			"topic_editable": "[class*=textWrapper][class*=hidden]",
+			"topic_not_editable": "[class*=inputWrapper][class*=hidden]",
+			"chat_header": "[data-id=chat-header]",
+			"user_item": "[class*=filteredUsers] [data-id=user-item]",
+			"user_item_add": "[class*=filteredUsers]  [data-id=user-item] [class*=vbox]+[class] .addParticipantBtn",
+			"remove_icon": "[data-id=ParticipantItem-remove-icon]"
+		}
+	],
+
+	"form": [
+		{
+			"description": "GroupChat - Header - Contact name",
+			"dclass": "[data-id=chat-header] [data-id=editable-text]",
+			"font_family": "Roboto",
+			"font_size": "16px",
+			"font_weight": "700",
+			"font_style": "normal"
+		},
+		{
+			"description": "GroupChat - Header - Avatar",
+			"dclass": "[data-id=chat-header] [class*=Avatar]",
+			"width": 34,
+			"height": 34
+		},
+		{
+			"description": "GroupChat - Header - Edit button",
+			"dclass": "[data-id=EditableText-edit-icon]",
+			"width": 20,
+			"height": 20	
+		},
+		{
+			"description": "GroupChat - Header - Call button",
+			"dclass": "[data-id=audioCallButton]",
+			"width": 28,
+			"height": 28	
+		},
+		{
+			"description": "GroupChat - Header - Videocall button",
+			"dclass": "[data-id=videoCallButton]",
+			"width": 28,
+			"height": 28	
+		},
+		{
+			"description": "GroupChat - Header - Participants button",
+			"dclass": "[data-id=editGroupChatBtn]",
+			"width": 28,
+			"height": 28	
+		},
+		{
+			"description": "GroupChat - Header - Files button",
+			"dclass": "[data-id=chatFilesButton]",
+			"width": 28,
+			"height": 28	
+		},
+		{
+			"description": "GroupChat - Files - Title",
+			"dclass": "[class*=fileList] [class*=Header]",
+			"font_family": "Roboto",
+			"font_size": "16px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343"
+		},
+		{
+			"description": "GroupChat - Files - X Icon",
+			"dclass": "[data-id=close]",
+			"width": 21,
+			"height": 21,
+			"color": "#434343"
+		},
+		{
+			"description": "GroupChat - Content - Date",
+			"dclass": ".chatDate",
+			"font_family": "Roboto",
+			"font_size": "16px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#9a9a9a"
+		},				
+		{
+			"description": "GroupChat - Content",
+			"dclass": "[data-id=chat-message-list]",
+			"width": 1015
+		},
+		{
+			"description": "GroupChat - Content - avatar",
+			"dclass": "[data-id=chat-message-list] [data-id=avatar]",
+			"width": 34,
+			"height": 34
+		},
+		{
+			"description": "GroupChat - Content - Received Message",
+			"dclass": "[class*=InboundText] [data-id=chat-message-text]",
+			"width": 658,
+			"font_family": "Roboto",
+			"font_size": "13.008px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#212121",
+			"deviation": 5		
+		},
+		{
+			"description": "GroupChat - Content - Received Message - background",
+			"dclass": "[class*=InboundText]",
+			"background_color": "#f2e7eb"
+		},
+		{
+			"description": "GroupChat - Content - ReceivedMessageTime",
+			"dclass": "[class*=Inbound] [data-id=chat-message-time]",
+			"font_family": "Roboto",
+			"font_size": "10px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#9a9a9a"
+		},
+		{
+			"description": "GroupChat - Input container",
+			"dclass": "[data-id=chat-editor]",
+			"width": 1015,
+			"height": 40,
+			"deviation": 5	
+		},
+		{
+			"description": "GroupChat - Input form",
+			"dclass": "[class*=editorContainer]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#4a4a4a",
+			"background_color": "#ffffff",
+			"deviation": 5	
+		},	
+		{
+			"description": "GroupChat - Input form - Placeholder",
+			"dclass": "[id*=placeholder]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#9a9a9a"
+		}
+	]
+}

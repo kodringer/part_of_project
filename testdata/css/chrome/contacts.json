@@ -1,0 +1,41 @@
+{
+	"ctrl": [
+		{
+			"dclass": "[data-id=recent-item]",
+			"recentMessage": "[data-id=recent-item] [data-id=message]",
+			"contactMessage": "[data-id=contact-item] [data-id=message]",
+			"divider": "[data-id=recent-panel] [class*=divider]"
+		}
+	],
+	"controls": [
+		{
+			"description": "Left panel (box)",
+			"dclass": "[data-id=left-panel]",
+			"width": 350
+		},
+		{
+			"description": "Left panel - Contacts - recent item",
+			"dclass": "[data-id=recent-item]",
+			"width": 350,
+			"height":58,
+			"deviation": 15
+		},
+		{
+			"description": "Left panel - Contacts - avatar",
+			"dclass": "[data-id=avatar]",
+			"width":34,
+			"height":34
+		},
+		{
+			"description": "Left panel - Contacts - name",
+			"dclass": "[data-id=name]",
+			"title": "!contact name!",
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "700",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343"
+		}
+	]
+}

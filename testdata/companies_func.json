@@ -1,0 +1,48 @@
+{
+	"buttons": [
+		{
+			"description": "Filter buttons test",
+			"name": "ALL",
+			"companies": 6
+		},
+		{
+			"name": "A-D",
+			"companies": 2
+		},
+		{
+			"name": "E-H",
+			"companies": 0
+		},
+		{
+			"name": "I-L",
+			"companies": 0
+		},
+		{
+			"name": "M-P",
+			"companies": 1
+		},
+		{
+			"name": "Q-T",
+			"companies": 3
+		},
+		{
+			"name": "U-Z",
+			"companies": 0
+		}
+	],
+	"input": [
+		{
+			"description": "Filter input test",
+			"string": "next",
+			"company_name": "NextPlane",
+			"quantity": 1
+		}
+	],
+	"clear_input": [
+		{
+			"description": "Clear input test",
+			"quantity": 6			
+		}
+	]
+}
+

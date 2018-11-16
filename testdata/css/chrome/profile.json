@@ -1,0 +1,153 @@
+{
+	"ctrl": [
+		{
+			"close": "[data-id=close]",
+			"toolbar": "[data-id=toolbar-settings]",
+			"open": "[data-id=settings-menu] [data-id=profile]",
+			"scrollup": "[data-id=me-profile-header]",
+			"remove_avatar": "[data-id=remove-photo-btn]",
+			"edit_button": "[data-id=button-edit]",
+			"save_button": "[data-id=button-save]",
+			"cancel_button": "[data-id=button-reset]",
+			"save_avatar_button": "[data-id=button-save-avatar]",
+			"cancel_avatar_button": "[data-id=button-reset-avatar]",
+			"zoomer_avatar": "[data-id=me-avatar-profile] [class*=zoomerConteiner]",
+			"upload_progress": "[class*=progressbar]",
+			"error_avatar": "[class*=errorTextBox] [class*=errorHeader]+div",
+			"error_inputs": "[class*=inputBlock] [class*=error]",
+			"error_name": "[data-id=FirstName] [class*=inputBlock] [class*=error]",
+			"error_lastname": "[data-id=LastName] [class*=inputBlock] [class*=error]",
+			"error_title": "[data-id=Title] [class*=inputBlock] [class*=error]",
+			"error_company": "[data-id=Company] [class*=inputBlock] [class*=error]",
+			"error_department": "[data-id=Department] [class*=inputBlock] [class*=error]",
+			"error_website": "[data-id=Website] [class*=inputBlock] [class*=error]",
+			"error_mobile": "[data-id=Mobile-label] [class*=inputBlock] [class*=error]",
+			"error_office": "[data-id=Office-label] [class*=inputBlock] [class*=error]",
+			"error_fax": "[data-id=Fax-label] [class*=inputBlock] [class*=error]",
+			"error_summary": "[data-id=Summary-label] [class*=inputBlock] [class*=error]",
+			"first_name_input": "[data-id=given]",
+			"last_name_input": "[data-id=surname]",
+			"title_input": "[data-id=title]",
+			"company_input": "[data-id=org]",
+			"department_input": "[data-id=department]",
+			"website_input": "[data-id=url]",
+			"mobile_input": "[data-id=mobile]",
+			"office_input": "[data-id=office]",
+			"fax_input": "[data-id=fax]",
+			"timezone_select": ".Select-menu-outer",
+			"summary_input": "[data-id=summary]",
+			"editMode": ".isEdit",
+			"editable_field": ".isEdit input[type]:not([type=email]):not([type=file])"
+		}
+	],
+
+	"form": [
+		{
+			"description": "Profile - Header",
+			"dclass": "[data-id=me-profile-header]",
+			"font_family": "Roboto",
+			"font_size": "16px",
+			"font_weight": "400",
+			"background_color": "#eeeeee"
+		},
+		{
+			"description": "Profile - Avatar",
+			"dclass": "[data-id=me-avatar-profile] [data-id=me-avatar-profile]",
+			"width": 200,
+			"height": 200
+		},
+		{
+			"description": "Profile - Avatar header",
+			"dclass": "[class*=avatarSettings] [class*=bolder]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "700",
+			"color": "#525252"
+		},
+		{
+			"description": "Profile - Upload button",
+			"dclass": "[class*=uploadButton]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "400",
+			"background_color": "#f4f4f4"
+		},
+		{
+			"description": "Profile - Remove button",
+			"dclass": "[class*=gray]:last-child",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "400",
+			"background_color": "#f4f4f4"
+		},
+		{
+			"description": "Profile - Edit button",
+			"dclass": "[data-id=row-buttons] [data-id=button-edit]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "400",
+			"color": "#ffffff",
+			"width": 84,
+			"height": 34,
+			"background_color": "#a8152b"
+		},
+		{
+			"description": "Profile - First name",
+			"dclass": "[data-id=FirstName]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "400",
+			"color": "#525252"
+		},
+		{
+			"description": "Profile - First name - value",
+			"dclass": "[data-id=FirstName] [class*=infoText]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "400",
+			"color": "#525252"
+		}
+	],
+
+	"editform": [
+		{	
+			"description": "Profile - First name - input",
+			"dclass": "[data-id=FirstName] [data-id=given]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "400",
+			"color": "#4a4a4a",
+			"background_color": "#ffffff"
+		},
+		{
+			"description": "Profile - Save button",
+			"dclass": "[data-id=button-save]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "400",
+			"color": "#ffffff",
+			"width": 84,
+			"height": 34,
+			"background_color": "#a8152b"
+		},
+		{
+			"description": "Profile - Cancel button",
+			"dclass": "[data-id=button-reset]",
+			"font_family": "Roboto",
+			"font_size": "14px",
+			"font_weight": "400",
+			"color": "#525252",
+			"width": 84,
+			"height": 34,
+			"background_color": "#eeeeee"
+		}
+	],
+
+	"view": [
+		{
+			"email": "[data-id=email].disabled",
+			"username": "[data-id=nCoreIDInput].disabled"
+		}
+	]
+}
+

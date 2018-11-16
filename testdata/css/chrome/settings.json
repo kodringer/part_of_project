@@ -1,0 +1,60 @@
+{
+  "ctrl": [
+    {
+      "close": "[data-id=settings-header] [data-id=close]",
+      "toolbar": "[data-id=toolbar-settings]",
+      "open": "[data-id=settings-menu] [data-id=settings]",
+      "password": "[data-id=password] [class*=header]",
+      "privacy": "[data-id=privacy-settings] [class*=header]"
+    }
+  ],
+  "form": [
+    {
+      "description": "Settings - Header",
+      "dclass": "[data-id=settings-header]",
+      "font_family": "Roboto",
+      "font_size": "16px",
+      "font_weight": "400",
+      "color": "#525252",
+      "background_color": "#eeeeee"
+    },
+    {
+      "description": "Settings - Privacy block header",
+      "dclass": "[data-id=privacy-settings] [class*=header]",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "400",
+      "color": "#525252"
+    },
+    {
+      "description": "Settings - Privacy block label",
+      "dclass": "[data-id=invitation] [class*=label]",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "400",
+      "color": "#525252"
+    },
+    {
+      "description": "Settings - Edit button",
+      "dclass": "[data-id=button-edit]",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "400",
+      "color": "#ffffff",
+      "width": 84,
+      "height": 34,
+      "background_color": "#a8152b"
+    },
+    {
+      "description": "Settings - Blocked users",
+      "dclass": "[data-id=privacy-settings] [data-id=blocked-users]"
+    }
+  ],
+  "view": [
+    {
+      "password": "[data-id=password] [class*=hidden]",
+      "privacy": "[data-id=privacy-settings] [class*=hidden]"
+    }
+  ]
+}
+

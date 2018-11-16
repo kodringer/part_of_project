@@ -1,0 +1,89 @@
+{
+  "ctrl": [
+    {
+      "quick": "[data-id=quickSearch]",
+      "field": "[data-id=advanced-search-input] [data-id=search-input]",
+      "show_all": "[data-id=show-all-conteiner]",
+      "close": "[data-id=advanced-search-header] [data-id=close]",
+      "reset": "[data-id=advanced-search-header] [data-id=resetAdvancedSearch]",
+      "scrollup": "[data-id=ContainerMe]",
+      "divider": "[data-id=search-panel] [class*=divider]",
+      "contact_item": "[data-id=contactList] [data-id=contact-item]",
+      "muc_item": "[data-id=contactList] [data-id=muc-item]",
+      "search_user": "[data-id=label-userAdvancedSearch]",
+      "search_groupchats": "[data-id=label-goupchatsAdvancedSearch]",
+      "search_reset_all": ".Reset all"
+    }
+  ],
+  "form": [
+    {
+      "description": "Advanced Search - Header",
+      "dclass": "[data-id=advanced-search-header] [class*=topText]>h1",
+      "font_family": "Roboto",
+      "font_size": "16px",
+      "font_weight": "400",
+      "font_style": "normal",
+      "font_stretch": "100%",
+      "color": "#434343",
+      "x": 367,
+      "y": 16
+    },
+    {
+      "description": "Advanced Search - X Icon",
+      "dclass": "[data-id=close]",
+      "width": 16,
+      "height": 18,
+      "color": "#434343",
+      "x": 1317,
+      "y": 16,
+      "deviation": 15
+    },
+    {
+      "description": "Advanced Search - clearing icon",
+      "dclass": "[data-id=resetAdvancedSearch] [class*=icon]",
+      "width": 14,
+      "height": 14,
+      "color": "#b9bdc0"
+    },
+    {
+      "description": "Advanced Search - Search Field",
+      "dclass": "[data-id=search-input]",
+      "width": 985,
+      "height": 38,
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "400",
+      "font_style": "normal",
+      "font_stretch": "100%",
+      "color": "#6a6a6a",
+      "background_color": "#ffffff",
+      "x": 367,
+      "y": 45,
+      "deviation": 15
+    },
+    {
+      "description": "Advanced Search - Search In",
+      "dclass": "[for=userAdvancedSearch]",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "400",
+      "font_style": "normal",
+      "font_stretch": "100%",
+      "color": "#525252",
+      "x": 447,
+      "y": 96
+    },
+    {
+      "description": "Advanced Search - Users - Wording",
+      "dclass": "[data-id=label-userAdvancedSearch]>div",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "400",
+      "font_style": "normal",
+      "font_stretch": "100%",
+      "color": "#525252",
+      "x": 473,
+      "y": 100
+    }
+  ]
+}

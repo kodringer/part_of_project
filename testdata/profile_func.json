@@ -1,0 +1,22 @@
+{  
+  "mandatory": [
+    {
+      "description": "FN and LN are Mandatory fields",
+      "shouldbe": 2,
+      "empty": " "
+    }
+  ],
+
+  "symbols": [
+    {
+      "description_max": "Input max symbols",
+      "description_invalid": "Invalid symbols",
+      "_255expected": "can not be longer than 255 characters",
+      "_50expected": "can not be longer than 50 characters",
+      "_500expected": "can not be longer than 500 characters",
+      "valid_expected": "has an invalid value",
+      "special": "[{~`!@#$%^&*()_-=+|':;<,>.?/*�H���}]",
+      "special_description": "Input special symbols"
+    }
+  ]
+}

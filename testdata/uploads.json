@@ -1,0 +1,64 @@
+{
+	"ctrl": [
+		{
+		"input": "input[type=file]",
+		"title_field": "[class*=info] [class*=name]",
+		"visible": "arguments[0].style.visibility = 'visible'; arguments[0].style.height = '1px'; arguments[0].style.width = '1px'; arguments[0].style.opacity = 1",
+		"download": "[class*=actions] [class*=download]"
+		}	
+	],   
+	"files": [
+		{
+		"description": " Check upload jpg",
+		"value": "../testdata/files/22+2.jpg",
+		"title": "22+2.jpg"
+		},
+		{
+		"description": " Check upload zip",
+		"value": "../testdata/files/files.zip",
+		"title": "files.zip"
+		},
+		{
+		"description": " Check upload rar",
+		"value": "../testdata/files/files.rar",
+		"title": "files.rar"
+		},
+		{
+		"description": " Check upload png",
+		"value": "../testdata/files/rus-n;ame.PNG",
+		"title": "rus-n;ame.PNG"
+		},
+		{
+		"description": " Check upload html",
+		"value": "../testdata/files/te$st.html",
+		"title": "te$st.html"
+		},
+		{
+		"description": " Check upload gif",
+		"value": "../testdata/files/вфыв.gif",
+		"title": "вфыв.gif"
+		}		
+	],
+
+	"invalid_avatar": [
+
+		{
+		"description": "Avatar Invalid format",
+		"value": "../testdata/files/files.zip",
+		"shouldbe": "Invalid file format, please use an image only file."
+		},
+		{
+		"description": "Avatar More than 3mb",
+		"value": "../testdata/files/3mb.bmp",
+		"shouldbe": "Your photo has exceeded the max 3mb file size."
+		}
+	],
+	"valid_avatar": [
+
+		{
+		"description": "Valid avatar check",
+		"value": "../testdata/files/less100px.jpg",
+		"shouldbe": "Invalid file format, please use an image only file."
+		}
+	]
+}

@@ -1,0 +1,82 @@
+{
+  "ctrl": [
+    {
+      "description": "Home - Chat Now!",
+      "dclass": "[class*=Welcome] [data-id=step1-btn]",
+      "chat_now": "Chat Now!"
+    }
+  ],
+  "form": [
+    {
+      "description": "Home - Logo",
+      "dclass": "[class*=Welcome] [class*=logo]",
+      "width": 82,
+      "height": 82
+    },
+    {
+      "description": "Home - Header - Welcome",
+      "dclass": "[class*=WelcomeTitle]",
+      "font_family": "Roboto",
+      "font_size": "30px",
+      "font_weight": "700",
+      "font_style": "normal",
+      "font_stretch": "100%",
+      "color": "#212121"
+    },
+    {
+      "description": "Home - Description",
+      "dclass": "[class*=Description]",
+      "font_family": "Roboto",
+      "font_size": "18px",
+      "font_weight": "300",
+      "font_style": "normal",
+      "font_stretch": "100%",
+      "color": "#212121"
+    },
+    {
+      "description": "Home - List - ItemTitle",
+      "dclass": "[class*=ItemTitle]",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "700",
+      "font_style": "normal",
+      "font_stretch": "100%",
+      "color": "#3f3f3f"
+    },
+    {
+      "description": "Home - List - ItemText",
+      "dclass": "[class*=item] [class*=text]",
+      "font_family": "Roboto",
+      "font_size": "12px",
+      "font_weight": "400",
+      "font_style": "normal",
+      "font_stretch": "100%",
+      "color": "#3f3f3f"
+    },
+    {
+      "description": "Home - List - StepButton",
+      "dclass": "[class*=StepButton]",
+      "width": 98,
+      "height": 35,
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "700",
+      "font_style": "normal",
+      "font_stretch": "100%",
+      "color": "#ffffff",
+      "background_color": "#a8152b"
+    }
+  ],
+  "notfound": [
+    {
+      "description": "404 text",
+      "dclass": "[class*=NotFound] [class*=Text]",
+      "font_family": "Roboto",
+      "font_size": "64px",
+      "font_weight": "700",
+      "font_style": "normal",
+      "font_stretch": "100%",
+      "color": "#b7ccec"
+    }
+  ]
+}

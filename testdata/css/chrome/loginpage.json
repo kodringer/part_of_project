@@ -1,0 +1,126 @@
+{
+	"ctrl": [
+		{
+			"ncoreid": "input[name='ncore-id']",
+			"password": "input[name='pass']",
+			"login_button": "input[name='login']",
+			"forgot_pass": ".login-help a",
+			"loggedin": "[data-id=ContainerMe] [title=Available]",
+			"nameOkta": "[id=okta-signin-username]",
+			"passOkta": "[id=okta-signin-password]",
+			"okta_login_button": "[id=okta-signin-submit]"
+		}
+	],
+	"form": [
+		{
+			"description": "Chrome Login Page - title",
+			"dclass": ".headline h1",
+			"font_family": "Roboto",
+			"font_size":"24px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#5e5e5e"
+		},
+		{
+			"description": "Login Page - login button",
+			"dclass": ".login-submit[name=login]",
+			"width": 360,
+			"height":50,
+			"background-color": "#4587f0",
+			"font_family": "Roboto",
+			"font_size":"16px",
+			"font_weight": "700",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#ffffff"
+		},
+		{
+			"description": "Login Page - Forgot password",
+			"dclass": ".login-help a",
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#899fb7"
+		},
+		{
+			"description": "Login Page - main panel",
+			"dclass": ".main-panel",
+			"width": 452,
+			"height":370
+		},
+		{
+			"description": "Login Page - main panel background color",
+			"dclass": ".login-card",
+			"background_color": "#f4f4f4"
+		},
+		{
+			"description": "Login Page - browser panel",
+			"dclass": ".bottom-panel",
+			"width": 451,
+			"height":53,
+			"background_color": "#e6e6e6"
+		},
+		{
+			"description": "Login Page - ncoreID",
+			"dclass": "[data-hook=login-form] [data-hook=ncore-id]",
+			"width": 360,
+			"height":40,
+			"background_color": "#ffffff"
+		},
+		{
+			"description": "Login Page - password",
+			"dclass": "[data-hook=login-form] [data-hook=password]",
+			"width": 360,
+			"height":40,
+			"background_color": "#ffffff"
+		}		
+	],
+	"error": [
+		{
+			"description": "Login Page - ErrorBox",
+			"dclass": ".main-panel .form-error-box",
+			"width": 360,
+			"height":30,
+			"background_color": "#ffebeb"
+		},
+		{
+			"description": "Login Page - Form Error",
+			"dclass": "[data-hook=form-error]",
+			"font_family": "Roboto",
+			"font_size":"12px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#f43736"
+		},
+		{
+			"description": "Login Page - warning icon",
+			"dclass": ".main-panel .form-error-box .warning",
+			"width": 14,
+			"height":14
+		},
+		{
+			"description": "Login Page - ncoreID error",
+			"dclass": "[data-hook=login-form] [data-hook=ncore-id].error-input",
+			"width": 360,
+			"height":40,
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "400",
+			"color": "#f43736"
+		},
+		{
+			"description": "Login Page - password error",
+			"dclass": "[data-hook=login-form] [data-hook=password].error-input",
+			"width": 360,
+			"height":40,
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "400",
+			"color": "#f43736"
+		}		
+	]	
+}

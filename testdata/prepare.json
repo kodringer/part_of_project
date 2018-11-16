@@ -1,0 +1,18 @@
+{
+ 	"ctrl": [
+		{
+			"add_contact": "[data-id=toolbar-add]",
+			"contact_name": "[data-id=user-item] [data-id=name]", 
+			"contact_menu": "[data-id=user-item] [data-id=dropDownThreeDots]", 
+			"delete_contact": "[data-id=deleteContact]",
+			"start_chat": "[data-id=user-item] [data-id=dropDownThreeDots] [data-id=startChat]", 
+			"settings": "[data-id=dropDownSettings]",
+			"logout": "[data-id=logout]",
+			"accept_contact": "[data-id=acceptContact]",
+			"pending_contacts": "[data-id=toolbar-pending]",
+			"add_contact_menu": "[data-id=addContact]",
+			"home": "[data-id=toolbar-home]",
+			"leave_muc": "leaveGroupChatButton"
+		}
+	]
+}

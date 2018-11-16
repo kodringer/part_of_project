@@ -1,0 +1,46 @@
+{
+	"ctrl": [
+		{
+			"open": "[data-id=show-history]",
+			"close": "[data-id=close]",
+			"scrollup": "[data-id=ContainerMe]",
+			"historyMessage": "[data-id=history] [data-id=message]"
+		}
+	],
+
+	"form": [
+		{
+			"description": "History - Header",
+			"dclass": "[data-id=history-header] [class*=topText]>h1",
+			"font_family": "Roboto",
+			"font_size": "16px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#434343",
+			"x": 367,
+			"y": 14	
+		},
+		{
+			"description": "History - X Icon",
+			"dclass": "[data-id=close]",
+			"width": 16,
+			"height": 18,
+			"color": "#434343",
+			"x": 1317,
+			"y": 14,
+			"deviation": 15	
+		},
+		{
+			"description": "History - Tooltips",
+			"dclass": "[data-id=tooltip]",
+			"background_color": "#222222",
+			"color": "#ffffff"
+		},
+		{
+			"description":"History - Date",
+			"dclass":"[data-id=recent-list-item] [class*=Date]",
+			"color":"#9a9a9a"
+		}
+	]
+}

@@ -1,0 +1,172 @@
+{
+	"ctrl": [
+		{
+			"email": "input[name=email]",
+			"phone": "input[name=mobilePhone]",
+			"username": "input[name=login]",
+			"submit": "[type=submit]",
+			"name": "input[name=firstName]",
+			"last_name": "input[name=lastName]",
+			"company": "input[name=department]",
+			"title": "input[name=title]"		
+		}
+	],
+	"form": [
+		{
+			"description": "Chrome Signup Page - title",
+			"dclass": ".form-panel-title",
+			"font_family": "Roboto",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#5e5e5e"
+		},
+		{
+			"description": "Signup Page - FN field",
+			"dclass": "[name=firstName]",
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#757575",
+			"border": "1px solid rgb(189, 196, 208)"
+		},
+		{
+			"description": "Signup Page - LN field",
+			"dclass": "[name=lastName]",
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#757575"
+		},
+		{
+			"description": "Signup Page - Company Name field",
+			"dclass": "[name=department]",
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#757575"
+		},
+		{
+			"description": "Signup Page - Title field",
+			"dclass": "[name=title]",
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#757575"
+		},
+		{
+			"description": "Signup Page - Business Email field",
+			"dclass": "[name=email]",
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#757575"
+		},
+		{
+			"description": "Signup Page - Mobile phone field",
+			"dclass": "[name=mobilePhone]",
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#757575"
+		},
+		{
+			"description": "Signup Page - Username field",
+			"dclass": "[name=login]",
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#757575"
+		},
+		{
+			"description": "Signup Page - @maxineqa.com",
+			"dclass": ".input-addon",
+			"font_family": "Roboto",
+			"font_size":"14px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#555555",
+			"background_color": "#ededed"
+		},
+		{
+			"description": "Signup Page - Sign Up button",
+			"dclass": "[type=submit]",
+			"font_family": "Roboto",
+			"font_size":"16px",
+			"font_weight": "700",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#ffffff",
+			"background_color": "#a8152b"
+		},
+		{
+			"description": "Signup Page - bottom string",
+			"dclass": ".bottom",
+			"font_family": "Roboto",
+			"font_size":"12px",
+			"font_weight": "400",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#585858"
+		}			
+	],
+	"error": [
+		{
+			"description": "Signup Page - ErrorBox",
+			"dclass": ".form-panel label.error",
+			"font_size":"12px",
+			"color":"#ffffff",
+			"background_color": "#f43736"
+		},
+		{
+			"description": "Signup Page - ErrorBox - image",
+			"dclass": ".form-panel .error",
+			"background_image": "pages/img/warning.svg",
+			"border": "1px solid rgb(244, 55, 54)"
+		}
+	],
+	"warnings": [
+		{
+			"description": "Signup Page - Warning Fill out",
+			"dclass":".form-panel label.error",
+			"value": "Please fill out this field"
+		},
+		{
+			"description": "Signup Page - Warning phone",
+			"dclass": "[name=mobilePhone] + label.error",
+			"value": "Only digits expected"
+		},
+		{
+			"description": "Signup Page - Warning mail",
+			"dclass": "[name=email] + label.error",
+			"value": "Invalid email"
+		},
+		{
+			"description": "Signup Page - Warning username 5 symbol",
+			"dclass": "[name=login] + label.error",
+			"value": "is too short (minimum is 6 characters)",
+			"short": "dsada"
+		},
+		{
+			"description": "Signup Page - Warning username 51 symbol",
+			"dclass": "[name=login] + label.error",
+			"value": "is too long (maximum is 50 characters)",
+			"long": "adsdaasddaasdfasasdfaaaasdfadsgfasgasgasdgsafasfsaa"
+		}
+	]
+}

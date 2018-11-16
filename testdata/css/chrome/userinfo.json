@@ -1,0 +1,137 @@
+{
+  "ctrl": [
+    {
+      "close": "[data-id=user-profile-header] [data-id=close]",
+      "recent_item": "[data-id=recent-item] [data-for*=info]",
+      "recent_three_dots": "[data-id=recent-item] [data-for*=info]+[class*=vbox]+[data-id=dropDownThreeDots]",
+      "three_dots_info": "[class*=profileInfoData] [data-id=button-three-dots-contact]",
+      "three_dots_active": "[data-id=dropDownThreeDotsActive]",
+      "open": "[data-id=dropDownThreeDots] [data-id=viewUserInfo]",
+      "start_chat": "[class*=profileInfoData] [data-id=startChat]",
+      "refresh_presence": "[class*=profileInfoData] [data-id=refreshPresence]",
+      "delete_contact": "[data-id=delete-contact]",
+      "delete_contact_yes": "[data-id=delete-contact] [class*=yes]",
+      "delete_contact_no": "[data-id=delete-contact] [class*=no]",
+      "delete_confirm": "[data-id=delete-contact][class*=confirm]",
+      "edit_nickname": "[data-id=editable-text] [data-id=edit]",
+      "save_nickname": "[data-id=editable-text] [data-id=save]",
+      "cancel_edit_nickname": "[data-id=cancel]",
+      "nickname_edit_mode": "[data-id=editable-text] [class*=textWrapper][class*=hidden]",
+      "nickname_input": "[data-id=editable-text] input",
+      "nickname_text": "[data-id=editable-text] [title]",
+      "nickname_recent": "[data-id=recent-item] [data-id=name]",
+      "title": "[class*=nameThreeDots] h2",
+      "lastname": "[data-id=LastName] [title]",
+      "firstname": "[data-id=LastName] [title]",
+      "status_unknown": "[title='status unknown']"
+    }
+  ],
+  "form": [
+    {
+      "description": "User Info - Header",
+      "dclass": "[data-id=user-profile-header]",
+      "font_family": "Roboto",
+      "font_size": "16px",
+      "font_weight": "400",
+      "background_color": "#eeeeee"
+    },
+    {
+      "description": "User Info - Avatar",
+      "dclass": "[class*=center] [data-id=avatar]",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "description": "User Info - Name",
+      "dclass": "[class*=nameThreeDots]>h2",
+      "font_family": "Roboto",
+      "font_size": "18px",
+      "font_weight": "500"
+    },
+    {
+      "description": "User Info - Nickname label",
+      "dclass": "[class*=nickName] [class*=label]",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "700",
+      "color": "#525252"
+    },
+    {
+      "description": "User Info - Nickname edit button",
+      "dclass": "[data-id=EditableText-edit-icon]",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "700",
+      "color": "#757575",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "description": "User Info - Three dots button",
+      "dclass": "[class*=profileInfoData] [data-for=popupWidgetButton]",
+      "font_family": "Roboto",
+      "font_size": "20px"
+    },
+    {
+      "description": "User Info - Presence",
+      "dclass": "[class*=profileInfoData] [class*=presenceContainer]",
+      "width": 14,
+      "height": 14
+    },
+    {
+      "description": "User Info - Status label",
+      "dclass": "[class*=row]:nth-of-type(4)",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "400",
+      "color": "#525252"
+    },
+    {
+      "description": "User Info - Status",
+      "dclass": "[class*=profileInfoData] [class*=customStatus]",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "700",
+      "color": "#525252"
+    },
+    {
+      "description": "User Info - Delete from contacts",
+      "dclass": "[class*=profileInfoData] [class*=Delete]",
+      "font_family": "Roboto",
+      "font_size": "16px",
+      "font_weight": "400"
+    }
+  ],
+  "editform": [
+    {
+      "description": "User Info - Nickname save button",
+      "dclass": "[data-id=EditableText-save-icon]",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "700",
+      "color": "#757575",
+      "width": 15,
+      "height": 15
+    },
+    {
+      "description": "User Info - Nickname cancel button",
+      "dclass": "[data-id=EditableText-cancel-icon]",
+      "font_family": "Roboto",
+      "font_size": "14px",
+      "font_weight": "700",
+      "color": "#757575",
+      "width": 15,
+      "height": 15
+    }
+  ],
+  "cases": [
+		{
+			"nickname_set": "Nickname set",
+			"nickname_remove": "Nickname remove",
+      "chat": "Switch to chat",
+      "refresh_presence": "Refresh presence",
+			"delete_contact": "Delete contact"
+		}
+	]
+}
+

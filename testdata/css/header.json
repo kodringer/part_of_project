@@ -1,0 +1,17 @@
+{
+	"controls": [
+		{
+			"description": "Right panel - Home - header",
+			"dclass": "div .header-497088390",
+			"width": 1016,
+			"height": 132,
+			"background-color": "#333333"
+		},
+		{
+			"description": "Right panel - Home - header -logo",
+			"dclass": "div .header-497088390 img",
+			"width": 231,
+			"height": 87
+		}
+	]
+}

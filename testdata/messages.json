@@ -1,0 +1,29 @@
+{
+   	"string": [
+		{
+		"value": " The quick brown fox jumps over the lazy dog"
+		},
+		{
+            "value": " FOX is not lazy!!!!"
+		},
+		{
+		"value": ";) :)"
+		},
+		{
+		"value": " www.com"
+		},
+		{
+		"value": "NewTopic"
+		}		
+	],
+	"status": [
+		{
+		"offline": "appears offline and may not see or receive your message."
+		}
+	],
+	"mention": [
+		{
+		"symbol": "@"
+		}
+	]
+}

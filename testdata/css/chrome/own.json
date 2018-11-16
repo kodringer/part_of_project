@@ -1,0 +1,43 @@
+{
+	"controls": [
+		{
+			"description": "Left panel - own info (box)",
+			"dclass": "[data-id=ContainerMe]",
+			"tooltip": ".show[data-id=tooltip]",
+			"width": 350,
+			"height": 80,
+			"background_image": "-webkit-linear-gradient(left, rgb(83, 16, 142) 0%, rgb(246, 27, 85) 100%)"
+		},
+		{
+			"description": "Left panel - own name",
+			"dclass": "[data-hook=nameMe]",
+			"title": "!own username!",
+			"font_family": "Roboto",
+			"font_size": "16px",
+			"font_weight": "700",
+			"font_style": "normal",
+			"font_stretch": "100%",
+			"color": "#ffffff"
+		},
+		{
+			"description": "Left panel - own presence (text)",
+			"dclass": "[data-hook=presenceMe]",
+			"title": "!own presence!",
+			"font_size": "12px",
+			"font_weight": "400",
+			"color": "#e3eeff"
+		},
+		{
+			"description": "Left panel - own avatar",
+			"dclass": "[data-id=me-avatar]",
+			"width": 34,
+			"height": 34
+		},
+		{
+			"description": "Left panel - own presence (avatar)",
+			"dclass": "[data-id=me-avatar] [data-id=presence-circle]",
+			"width": 13,
+			"height": 13
+		}
+	]
+}
